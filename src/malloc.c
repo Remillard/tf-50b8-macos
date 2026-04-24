@@ -9,6 +9,8 @@ static const char RCSid[] = "$Id: malloc.c,v 35004.22 2007/01/13 23:12:39 kkeys 
 
 #include "tfconfig.h"
 #include "port.h"
+#include <sys/types.h>
+#include <stdlib.h>
 #include "signals.h"
 #include "malloc.h"
 

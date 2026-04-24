@@ -37,6 +37,7 @@ static const char RCSid[] = "$Id: tfio.c,v 35004.114 2007/01/13 23:12:39 kkeys E
 #include "search.h"	/* queues */
 #include "tfio.h"
 #include "tfselect.h"
+#include "socket.h"	/* main_loop() */
 #include "output.h"
 #include "attr.h"
 #include "macro.h"	/* macro_body() */

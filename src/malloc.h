@@ -7,6 +7,8 @@
  ************************************************************************/
 /* $Id: malloc.h,v 35004.24 2007/01/13 23:12:39 kkeys Exp $ */
 
+#include <stdlib.h>
+
 /* Function hierarchy:
  *  xmalloc: will kill process if it fails.  Calls dmalloc.
  *  dmalloc: if USE_DMALLOC, do debugging.  Calls mmalloc.
