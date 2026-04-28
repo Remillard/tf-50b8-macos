@@ -53,3 +53,31 @@ dkms.conf
 
 # debug information files
 *.dwo
+
+# Editor Files
+*~
+\#*
+
+# Log files
+*.log
+
+# Executable
+tf
+
+# Autoconf cache and generated files
+autom4te.cache/
+config.status
+/src/tfconfig.h
+/src/tfdefs.h
+/src/Makefile
+/src/TF_LIBDIR.build
+/src/default
+/unix/vars.mak
+
+# Build utilities and generated code
+/src/makehelp
+/src/pcre-2.08/dftables
+/src/pcre-2.08/chartables.c
+
+# Generated help index
+/tf-lib/tf-help.idx
